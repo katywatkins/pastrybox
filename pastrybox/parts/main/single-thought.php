@@ -5,7 +5,7 @@ the_post();
 $category = get_the_category( get_the_ID() );
 $theBaker = $bakers->get_by_slug( $category[0]->slug );
 ?>
-<div class="thought thought-format-a container" role="article">
+<div class="thought thought-format-a container step" role="article">
     <h2 class="thought-title">
         <a href="<?php the_permalink(); ?>"><?php pastry_the_thought_title_to_date( get_the_title(), true ); ?></a>
     </h2>

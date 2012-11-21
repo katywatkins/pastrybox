@@ -27,7 +27,7 @@
                         <a href="<?php bloginfo( 'url' ); ?>/bakers" title="Contributors To The Project">Bakers</a>
                     </li>
                     <li class="tooltipify">
-                        <a href="<?php bloginfo( 'url' ); ?>/stream" title="Everything At Once">Stream</a>
+                        <a href="<?php bloginfo( 'url' ); ?>/stream" title="All You Can Eat">Stream</a>
                     </li>
                     <li class="tooltipify">
                         <a href="<?php bloginfo( 'url' ); ?>/archives" title="Time Travel">Archives</a>

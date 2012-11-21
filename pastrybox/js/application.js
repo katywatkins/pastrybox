@@ -16,20 +16,30 @@
         event.preventDefault();
         scrollSmoothly($(this.hash));
     });
+    
+    // *** strokes (keyboard nav) ***
+	
+	// Set offset
+	strokes.offset(-60);
+	
+	// Move from one thought to another
+    strokes.step({
+        selector: ".step",
+        comboPrevious: [ "altKey", 38 ],
+        comboNext: [ "altKey", 40 ],
+    });  
 
-    // *** Keyboard: Radical Nav ***
-    // TO DO
-    /*
-        $window.bind('keypress', function(event) {
-            var cmdOrCtrl = event.metaKey || event.ctrlKey;
-
-     // Back to top
-            if( event.which === 49 && cmdOrCtrl ) {
-                event.preventDefault();
-                alert("up");
-            }
-        });
-     */
+	// Top/Bottom
+    strokes.direct({
+        selector: "#top",
+        combo: [ "ctrlKey", "altKey", 38 ],
+    })
+    .direct({
+        selector: "#bottom",
+        combo: [ "ctrlKey", "altKey", 40 ],
+    });
+ 	
+ 	strokes.listen();
 
     // *** tooltip ***
     function tooltipify() {
@@ -58,7 +68,8 @@
         tooltipify();
     }));
     tooltipify();
-
+    
+    
     // *** prettyPrint ***
     //window.prettyPrint && prettyPrint();
 }(window.jQuery)

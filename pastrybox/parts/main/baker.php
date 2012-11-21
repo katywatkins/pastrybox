@@ -4,7 +4,7 @@ $category = get_category( $category );
 $theBaker = $bakers->get_by_slug( $category->slug ); 
 ?>
 
-<div class="baker-profile wrapper">
+<div class="baker-profile step wrapper">
     <div class="container">  
         <h2 class="h-alpha"><?php echo $theBaker->name; ?></h2>	
         <div class="row">
@@ -26,12 +26,12 @@ $n = count( $publishedThoughts );
 ?>
 
 <?php if($n >= 1): ?>	
-<div class="baker-past-thoughts wrapper">
+<div class="baker-past-thoughts step wrapper">
     <div class="container">
         <h3 class="h-beta"><span>More thoughts by <?php echo $theBaker->name; ?></span></h3>
         
         <?php foreach( $publishedThoughts as $theThought ) : ?>
-        <div class="thought thought-format-a">
+        <div class="thought thought-format-a step">
             <h4 class="thought-title">
                 <a href="<?php pastry_the_baker_thought_permalink( $theBaker->slug, $theThought ); ?>"><?php pastry_the_thought_title_to_date( $theThought->post_title ); ?></a>
             </h4>
@@ -54,7 +54,7 @@ $n = count( $futureThoughts );
 ?>
 
 <?php if($n >= 1): ?>
-<div class="baker-future-thoughts container">
+<div class="baker-future-thoughts step container">
     <?php if ( $n == 1 ): ?>
     <h3 class="h-beta"><span>One more thought by <?php echo $theBaker->name; ?> will be published</span></h3>	
     <?php endif; ?>

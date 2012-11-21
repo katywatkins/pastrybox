@@ -30,7 +30,7 @@
 <script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
 <!-- production (minified version of the libraries used in your project): uncomment to enable -->
-<!--<script src="<?php bloginfo( 'template_url' ); ?>/js/min.js"></script>-->
+<script src="<?php bloginfo( 'template_url' ); ?>/js/min.js"></script>
 
 <!-- libraries at work -->
 <script src="<?php bloginfo( 'template_url' ); ?>/js/application.js"></script>

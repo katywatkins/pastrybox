@@ -4,7 +4,7 @@
         <h2 class="h-alpha">Archived Thoughts</h2>	
     </div>
 
-    <div class="by-years">
+    <div class="by-years step">
         <div class="container">
             <h3 class="h-beta"><span>By Years</span></h3>	
             
@@ -20,7 +20,7 @@
         </div><!-- /.container -->
     </div><!-- /.by-years -->
     
-    <div class="by-months">
+    <div class="by-months step">
         <div class="container">
             <h3 class="h-beta"><span>By Months</span></h3>	
 
@@ -36,7 +36,7 @@
         </div><!-- /.container -->	
     </div><!-- /.by-months -->
 
-    <div class="by-bakers">
+    <div class="by-bakers step">
         <div class="container">
             <h3 class="h-beta"><span>By Bakers</span></h3>	
 

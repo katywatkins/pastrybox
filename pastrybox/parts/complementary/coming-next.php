@@ -1,4 +1,4 @@
-<div class="coming-next">
+<div class="coming-next step">
     <div class="container">
         <h2 class="h-beta">
             <span>What's coming next</span>

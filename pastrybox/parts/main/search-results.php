@@ -30,7 +30,7 @@
     $category = get_the_category( get_the_ID() );
     $theBaker = $bakers->get_by_slug( $category[0]->slug );
     ?>	
-    <div class="thought thought-format-b" role="article">
+    <div class="thought thought-format-b step" role="article">
         <h3 class="thought-title">
             <a href="<?php pastry_the_thought_permalink( $category[0], get_post( get_the_ID() ) ); ?>"><?php pastry_the_thought_title_to_date( get_the_title( get_the_ID() ) ); ?></a>
         </h3>

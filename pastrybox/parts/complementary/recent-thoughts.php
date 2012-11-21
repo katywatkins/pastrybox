@@ -1,4 +1,4 @@
-<div class="recent-thoughts">
+<div class="recent-thoughts step">
     <div class="container">
         <h2 class="h-beta">
             <span>The week before: </span>
@@ -15,7 +15,7 @@
         $category = get_the_category( $theThought->ID ); 
         $theBaker = $bakers->get_by_slug( $category[0]->slug );
         ?>        
-        <div class="thought thought-format-b" role="article">
+        <div class="thought thought-format-b step" role="article">
             <h3 class="thought-title">
                 <a href="<?php pastry_the_thought_permalink( $category[0], $theThought ); ?>"><?php pastry_the_thought_title_to_date( $theThought->post_title ); ?></a>
             </h3>
