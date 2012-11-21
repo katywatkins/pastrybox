@@ -2,6 +2,11 @@
 
 More of a diary.
 
+## 2012, November 21
+
+* Updated functions.php to remove author's name in feed.
+* Added [strokes.js](https://github.com/alexduloz/strokes)
+
 ## 2012, November 10
 
 * Created "Most Recent" page.
