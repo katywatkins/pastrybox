@@ -1,7 +1,7 @@
 # Improving The Pastry Box
 
 
-The Pastry Box Project runs on Wordpress and uses [CurtainsUp](http://alexduloz.github.com/CurtainsUp/) as a blueprint for its template.
+The Pastry Box Project runs on Wordpress and uses [CurtainsUp](https://github.com/alexduloz/CurtainsUp) as a blueprint for its template.
 
 You can pull requests for new features, design improvements, and whatever crosses your mind. 
 
