@@ -1,5 +1,20 @@
 <?php
 
+add_filter( 'the_author', 'pastry_clean_feed', 10 );
+function pastry_clean_feed( $author ) {
+
+    if ( ! is_feed() ) {
+        return;
+    }
+
+    if (  $author === 'alex' ) { 
+        $author = '';
+    }
+
+    return $author;
+}
+
+
 function get_category_id( $cat_name )
 {
     $term = get_term_by( 'name', $cat_name, 'category' );
