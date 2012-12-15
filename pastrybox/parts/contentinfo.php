@@ -72,7 +72,7 @@
         	
         <div class="additional step">
             <h2 class="h-gamma">Meet Your Hosts</h2>
-            <p>There are not only pieces of software talking to each other behind this website. There are humans too. The Pastry Box is brought to you by <a href="http://bitspushedaround.com/" title="Alex Duloz - Website">Alex Duloz</a> and it is edited by <a href="http://katywatkins.com/" title="Katy Watkins - Website">Katy Watkins</a>. </p>
+            <p>There are not only pieces of software talking to each other behind this website. There are humans too. The Pastry Box is brought to you by <a class="h-card" href="http://bitspushedaround.com/" title="Alex Duloz - Website">Alex Duloz</a> and it is edited by <a class="h-card" href="http://katywatkins.com/" title="Katy Watkins - Website">Katy Watkins</a>. </p>
         </div>
         	
         <div class="additional step">
