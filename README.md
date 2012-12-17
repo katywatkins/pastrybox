@@ -5,17 +5,10 @@ The Pastry Box Project runs on Wordpress and uses [CurtainsUp](https://github.co
 
 You can pull requests for new features, design improvements, and whatever crosses your mind. 
 
-
-# But before you go...
-
-## Limitations
-
-Have you read the [limitations](https://github.com/alexduloz/pastrybox/blob/gh-pages/LIMITATIONS.md) ?
-
-Yes?
+There are some [limitations](https://github.com/alexduloz/pastrybox/blob/gh-pages/LIMITATIONS.md) to what you can use, but I'm sure it makes sense...
 
 
-## Now you can go
+## Install
 
 
 It is quite easy to get ready to improve the Pastry Box Project, but it may take some patience to get started:
@@ -32,16 +25,51 @@ It is quite easy to get ready to improve the Pastry Box Project, but it may take
 
 That's it. You're done.
 
+
 ## The _private Directory
 
 You will see at times references to a "_private" folder (so far only in parts > head.php). This "_private" folder contains material that, for copyright reasons, cannot be shared. Therefore, it cannot be downloaded from Github. It is however very easy to recreate.
 
 __If you don't want to recreate the "_private" directory, the Pastry Box template will still function properly (minus the fonts listed below)__
 
-The "_private" folder contains two files.
+The "_private" folder contains two files and one folder:
 
+* bakers
 * remote-fonts.php
 * ss-social.php
+
+### The "bakers" folder
+
+The "bakers" folder should have the following structure:
+
+
+	bakers
+		[year] (e.g. "2012")
+			bio
+			portraits
+
+
+The "bio" folder contains the texts displayed in "baker.php" (HTML format).
+The "portraits" format contains the `.png` avatars: two per baker: 200px x 200px (named after the baker's slug) + 100px x 100px (baker's slug + "-small" suffix).
+
+Here's an example:
+
+
+	bakers
+		2012
+			bio
+				lea-verou.php
+				ethan-marcotte.php
+				...
+			portraits
+				lea-verou.png
+				lea-verou-small.png
+				ethan-marcotte.png
+				ethan-marcotte-small.png
+				...
+
+
+Please make sure you read the [limitations](https://github.com/alexduloz/pastrybox/blob/gh-pages/LIMITATIONS.md) before using the material related to contributors.
 
 ### remote-fonts.php
 
