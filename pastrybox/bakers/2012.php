@@ -8,7 +8,7 @@ $bakers = array(
     "name"               => "Andy Clarke",
     "slug"               => 'andy-clarke',
     "profile_url"        => $config->url . "baker/andy-clarke/",
-    "portrait_url" => $config->data_url . $year . "/portraits/andy-clarke.png",
+    "portrait_url"       => $config->data_url . $year . "/portraits/andy-clarke.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/andy-clarke-small.png",
     "portrait_alt"       => $config->portrait_of . "Andy Clarke",
     "path_to_bio"        => 'bakers/data/' . $year . "/bio/andy-clarke.php",
@@ -17,7 +17,7 @@ $bakers = array(
   
   array(
     "name"         => "Ben Ward",
-    "slug"    => 'ben-ward',
+    "slug"         => 'ben-ward',
     "profile_url"  => $config->url . "baker/ben-ward/",
     "portrait_url" => $config->data_url . $year . "/portraits/ben-ward.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/ben-ward-small.png",
@@ -28,7 +28,7 @@ $bakers = array(
   
   array(
     "name"         => "Bruce Lawson",
-    "slug"    => 'bruce-lawson',
+    "slug"         => 'bruce-lawson',
     "profile_url"  => $config->url . "baker/bruce-lawson/",
     "portrait_url" => $config->data_url . $year . "/portraits/bruce-lawson.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/bruce-lawson-small.png",
@@ -39,7 +39,7 @@ $bakers = array(
   
   array(
     "name"         => "Cennydd Bowles",
-    "slug"    => 'cennydd-bowles',
+    "slug"         => 'cennydd-bowles',
     "profile_url"  => $config->url . "baker/cennydd-bowles/",
     "portrait_url" => $config->data_url . $year . "/portraits/cennydd-bowles.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/cennydd-bowles-small.png",
@@ -50,7 +50,7 @@ $bakers = array(
   
   array(
     "name"         => "Dan Eden",
-    "slug"    => 'dan-eden',
+    "slug"         => 'dan-eden',
     "profile_url"  => $config->url . "baker/dan-eden/",
     "portrait_url" => $config->data_url . $year . "/portraits/dan-eden.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/dan-eden-small.png",
@@ -61,7 +61,7 @@ $bakers = array(
   
   array(
     "name"         => "Dan Mall",
-    "slug"    => 'dan-mall',
+    "slug"         => 'dan-mall',
     "profile_url"  => $config->url . "baker/dan-mall/",
     "portrait_url" => $config->data_url . $year . "/portraits/dan-mall.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/dan-mall-small.png",
@@ -72,9 +72,9 @@ $bakers = array(
   
   array(
     "name"         => "Daniel Ryan",
-    "slug"    => 'daniel-ryan',
+    "slug"         => 'daniel-ryan',
     "profile_url"  => $config->url . "baker/daniel-ryan/",
-    "portrait_small" => $config->data_url . $year . "/portraits/daniel-ryan.png",
+    "portrait_url" => $config->data_url . $year . "/portraits/daniel-ryan.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/daniel-ryan-small.png",
     "portrait_alt" => $config->portrait_of . "Daniel Ryan",
     "path_to_bio"  => 'bakers/data/' . $year . "/bio/daniel-ryan.php",
@@ -83,7 +83,7 @@ $bakers = array(
   
   array(
     "name"         => "Denise Jacobs",
-    "slug"    => 'denise-jacobs',
+    "slug"         => 'denise-jacobs',
     "profile_url"  => $config->url . "baker/denise-jacobs/",
     "portrait_url" => $config->data_url . $year . "/portraits/denise-jacobs.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/denise-jacobs-small.png",
@@ -94,7 +94,7 @@ $bakers = array(
   
   array(
     "name"         => "Elliot Jay Stocks",
-    "slug"    => 'elliot-jay-stocks',
+    "slug"         => 'elliot-jay-stocks',
     "profile_url"  => $config->url . "baker/elliot-jay-stocks/",
     "portrait_url" => $config->data_url . $year . "/portraits/elliot-jay-stocks.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/elliot-jay-stocks-small.png",
@@ -105,7 +105,7 @@ $bakers = array(
   
   array(
     "name"         => "Emily Lewis",
-    "slug"    => 'emily-lewis',
+    "slug"         => 'emily-lewis',
     "profile_url"  => $config->url . "baker/emily-lewis/",
     "portrait_url" => $config->data_url . $year . "/portraits/emily-lewis.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/emily-lewis-small.png",
@@ -116,7 +116,7 @@ $bakers = array(
   
   array(
     "name"         => "Ethan Marcotte",
-    "slug"    => 'ethan-marcotte',
+    "slug"         => 'ethan-marcotte',
     "profile_url"  => $config->url . "baker/ethan-marcotte/",
     "portrait_url" => $config->data_url . $year . "/portraits/ethan-marcotte.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/ethan-marcotte-small.png",
@@ -127,7 +127,7 @@ $bakers = array(
   
   array(
     "name"         => "Frances Berriman",
-    "slug"    => 'frances-berriman',
+    "slug"         => 'frances-berriman',
     "profile_url"  => $config->url . "baker/frances-berriman/",
     "portrait_url" => $config->data_url . $year . "/portraits/frances-berriman.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/frances-berriman-small.png",
@@ -138,7 +138,7 @@ $bakers = array(
   
   array(
     "name"         => "Harry Roberts",
-    "slug"    => 'harry-roberts',
+    "slug"         => 'harry-roberts',
     "profile_url"  => $config->url . "baker/harry-roberts/",
     "portrait_url" => $config->data_url . $year . "/portraits/harry-roberts.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/harry-roberts-small.png",
@@ -149,7 +149,7 @@ $bakers = array(
   
   array(
     "name"         => "Inayaili de Leon",
-    "slug"    => 'inayaili-de-leon',
+    "slug"         => 'inayaili-de-leon',
     "profile_url"  => $config->url . "baker/inayaili-de-leon/",
     "portrait_url" => $config->data_url . $year . "/portraits/inayaili-de-leon.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/inayaili-de-leon-small.png",
@@ -160,7 +160,7 @@ $bakers = array(
   
   array(
     "name"         => "Jenn Lukas",
-    "slug"    => 'jenn-lukas',
+    "slug"         => 'jenn-lukas',
     "profile_url"  => $config->url . "baker/jenn-lukas/",
     "portrait_url" => $config->data_url . $year . "/portraits/jenn-lukas.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/jenn-lukas-small.png",
@@ -171,7 +171,7 @@ $bakers = array(
   
   array(
     "name"         => "John Allsopp",
-    "slug"    => 'john-allsopp',
+    "slug"         => 'john-allsopp',
     "profile_url"  => $config->url . "baker/john-allsopp/",
     "portrait_url" => $config->data_url . $year . "/portraits/john-allsopp.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/john-allsopp-small.png",
@@ -182,7 +182,7 @@ $bakers = array(
   
   array(
     "name"         => "Jon Tan",
-    "slug"    => 'jon-tan',
+    "slug"         => 'jon-tan',
     "profile_url"  => $config->url . "baker/jon-tan/",
     "portrait_url" => $config->data_url . $year . "/portraits/jon-tan.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/jon-tan-small.png",
@@ -204,7 +204,7 @@ $bakers = array(
   
   array(
     "name"         => "Krista Stevens",
-    "slug"    => 'krista-stevens',
+    "slug"         => 'krista-stevens',
     "profile_url"  => $config->url . "baker/krista-stevens/",
     "portrait_url" => $config->data_url . $year . "/portraits/krista-stevens.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/krista-stevens-small.png",
@@ -215,7 +215,7 @@ $bakers = array(
   
   array(
     "name"         => "Lea Verou",
-    "slug"    => 'lea-verou',
+    "slug"         => 'lea-verou',
     "profile_url"  => $config->url . "baker/lea-verou/",
     "portrait_url" => $config->data_url . $year . "/portraits/lea-verou.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/lea-verou-small.png",
@@ -226,7 +226,7 @@ $bakers = array(
   
   array(
     "name"         => "Leisa Reichelt",
-    "slug"    => 'leisa-reichelt',
+    "slug"         => 'leisa-reichelt',
     "profile_url"  => $config->url . "baker/leisa-reichelt/",
     "portrait_url" => $config->data_url . $year . "/portraits/leisa-reichelt.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/leisa-reichelt-small.png",
@@ -237,7 +237,7 @@ $bakers = array(
   
   array(
     "name"         => "Matthew Smith",
-    "slug"    => 'matthew-smith',
+    "slug"         => 'matthew-smith',
     "profile_url"  => $config->url . "baker/matthew-smith/",
     "portrait_url" => $config->data_url . $year . "/portraits/matthew-smith.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/matthew-smith-small.png",
@@ -248,18 +248,18 @@ $bakers = array(
   
   array(
     "name"         => "Matthew Weier O'Phinney",
-    "slug"    => 'matthew-weier-ophinney',
+    "slug"         => 'matthew-weier-ophinney',
     "profile_url"  => $config->url . "baker/matthew-weier-ophinney/",
     "portrait_url" => $config->data_url . $year . "/portraits/matthew-weier-ophinney.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/matthew-weier-ophinney-small.png",
     "portrait_alt" => $config->portrait_of . "Matthew Weier O'Phinney",
     "path_to_bio"  => 'bakers/data/' . $year . "/bio/matthew-weier-ophinney.php",
-    "twitter"      => "weierophinney",
+    "twitter"      => "mwop",
   ),
   
   array(
     "name"         => "Molly Holzschlag",
-    "slug"    => 'molly-holzschlag',
+    "slug"         => 'molly-holzschlag',
     "profile_url"  => $config->url . "baker/molly-holzschlag/",
     "portrait_url" => $config->data_url . $year . "/portraits/molly-holzschlag.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/molly-holzschlag-small.png",
@@ -270,7 +270,7 @@ $bakers = array(
   
   array(
     "name"         => "Paul O'Brien",
-    "slug"    => 'paul-obrien',
+    "slug"         => 'paul-obrien',
     "profile_url"  => $config->url . "baker/paul-obrien/",
     "portrait_url" => $config->data_url . $year . "/portraits/paul-obrien.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/paul-obrien-small.png",
@@ -281,7 +281,7 @@ $bakers = array(
   
   array(
     "name"         => "Rachel Andrew",
-    "slug"    => 'rachel-andrew',
+    "slug"         => 'rachel-andrew',
     "profile_url"  => $config->url . "baker/rachel-andrew/",
     "portrait_url" => $config->data_url . $year . "/portraits/rachel-andrew.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/rachel-andrew-small.png",
@@ -292,7 +292,7 @@ $bakers = array(
   
   array(
     "name"         => "Richard Clark",
-    "slug"    => 'richard-clark',
+    "slug"         => 'richard-clark',
     "profile_url"  => $config->url . "baker/richard-clark/",
     "portrait_url" => $config->data_url . $year . "/portraits/richard-clark.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/richard-clark-small.png",
@@ -303,7 +303,7 @@ $bakers = array(
   
   array(
     "name"         => "Rob Weychert",
-    "slug"    => 'rob-weychert',
+    "slug"         => 'rob-weychert',
     "profile_url"  => $config->url . "baker/rob-weychert/",
     "portrait_url" => $config->data_url . $year . "/portraits/rob-weychert.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/rob-weychert-small.png",
@@ -314,7 +314,7 @@ $bakers = array(
   
   array(
     "name"         => "Stephen Anderson",
-    "slug"    => 'stephen-anderson',
+    "slug"         => 'stephen-anderson',
     "profile_url"  => $config->url . "baker/stephen-anderson/",
     "portrait_url" => $config->data_url . $year . "/portraits/stephen-anderson.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/stephen-anderson-small.png",
@@ -325,7 +325,7 @@ $bakers = array(
   
   array(
     "name"         => "Stuart Langridge",
-    "slug"    => 'stuart-langridge',
+    "slug"         => 'stuart-langridge',
     "profile_url"  => $config->url . "baker/stuart-langridge/",
     "portrait_url" => $config->data_url . $year . "/portraits/stuart-langridge.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/stuart-langridge-small.png",
@@ -336,7 +336,7 @@ $bakers = array(
   
   array(
     "name"         => "Veerle Pieters",
-    "slug"    => 'veerle-pieters',
+    "slug"         => 'veerle-pieters',
     "profile_url"  => $config->url . "baker/veerle-pieters/",
     "portrait_url" => $config->data_url . $year . "/portraits/veerle-pieters.png",
     "portrait_small_url" => $config->data_url . $year . "/portraits/veerle-pieters-small.png",

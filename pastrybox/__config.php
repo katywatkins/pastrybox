@@ -27,7 +27,7 @@ $config = (object) array(
 	"portrait_of"  => 'Portrait Of ',
 	"url"     	   => get_bloginfo( 'url' ) . "/",
 	"template_url" => get_bloginfo( 'template_url' ) . "/",	
-	"data_url"     => get_bloginfo( 'template_url' ) . "/bakers/data/",
+	"data_url"     => get_bloginfo( 'template_url' ) . "/_private/bakers/data/",
 );
 
 

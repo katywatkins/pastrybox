@@ -9,7 +9,7 @@
           	
         <div class="additional step">
             <h2 class="h-gamma">Dive Deeper</h2>
-            <p>If you want to know more about the Pastry Box Project, you can read our <a href="<?php bloginfo( 'url' ); ?>/about" title="About">about</a> page, or <a href="http://bitspushedaround.com/the-pastry-box-project/" title="Bitspushedaround - Pastry Box">the genesis (and goals)</a> of the project. You can also consult the project's <a href="<?php bloginfo( 'url' ); ?>/archives" title="Archives">archives</a> to find older thoughts, or view all the <a href="<?php bloginfo( 'url' ); ?>/bakers" title="Bakers">bakers</a> who are taking part in the experiment.</p>
+            <p>If you want to know more about the Pastry Box Project, you can read our <a href="<?php bloginfo( 'url' ); ?>/about" title="About">about</a> page, or <a href="http://bitspushedaround.com/on-the-pastry-box-project/" title="Bitspushedaround - Pastry Box">the genesis (and goals)</a> of the project. You can also consult the project's <a href="<?php bloginfo( 'url' ); ?>/archives" title="Archives">archives</a> to find older thoughts, or view all the <a href="<?php bloginfo( 'url' ); ?>/bakers" title="Bakers">bakers</a> who are taking part in the experiment.</p>
         </div>
         	
         <div class="additional step">
@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Shift">⇧</kbd><kbd title="Arrow: Up">↑</kbd>
+                            <kbd title="Alt">⌥</kbd><kbd title="Ctrl">⌃</kbd><kbd title="Arrow: Up">↑</kbd>
                         </td>
                         <td>
                             Direct To Top
@@ -59,7 +59,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Shift">⇧</kbd><kbd title="Arrow: Down">↓</kbd>
+                            <kbd title="Alt">⌥</kbd><kbd title="Ctrl">⌃</kbd><kbd title="Arrow: Down">↓</kbd>
                         </td>
                         <td>
                             Direct To Bottom
@@ -72,7 +72,7 @@
         	
         <div class="additional step">
             <h2 class="h-gamma">Meet Your Hosts</h2>
-            <p>There are not only pieces of software talking to each other behind this website. There are humans too. The Pastry Box is brought to you by <a href="http://bitspushedaround.com/" title="Alex Duloz - Website">Alex Duloz</a> and it is edited by <a href="http://katywatkins.com/" title="Katy Watkins - Website">Katy Watkins</a>. </p>
+            <p>There are not only pieces of software talking to each other behind this website. There are humans too. The Pastry Box is brought to you by <a class="h-card" href="http://bitspushedaround.com/" title="Alex Duloz - Website">Alex Duloz</a> and it is edited by <a class="h-card" href="http://katywatkins.com/" title="Katy Watkins - Website">Katy Watkins</a>. </p>
         </div>
         	
         <div class="additional step">

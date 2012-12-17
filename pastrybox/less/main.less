@@ -221,8 +221,8 @@ cite {
 }
 
 abbr, acronym {
-  border-bottom: 1px dotted #777;
-  cursor: help;
+    border-bottom: 1px dotted #777;
+    cursor: help;
 }
 
 // *************** HELPERS *************** //
@@ -854,6 +854,30 @@ parts/contentinfo.php
     li {
         padding: .5em 0;
         display: inline;
+    }
+    
+    kbd {
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        min-width: 1.8em;
+        min-height: 1.8em;
+        margin-right: .5em;
+        text-align: center;
+    }
+
+    table {
+    	margin:0 auto;
+    }
+    
+    tbody td:first-child {
+    	margin-right: 1em;
+    }
+    
+    td {
+    	border-bottom: 1px solid #ccc;
+    	padding: .3em .5em;
+    	vertical-align: top
     }
     
 }

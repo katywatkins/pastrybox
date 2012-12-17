@@ -18,7 +18,7 @@ if( is_front_page() ) {
 ?>
 <?php 
 if( !pastry_no_extra_bytes() ) {
-    require_once 'parts/contentinfo-short.php'; 
+    require_once 'parts/contentinfo.php'; 
 }
 ?>
 <?php require_once 'parts/footer.php'; ?>
