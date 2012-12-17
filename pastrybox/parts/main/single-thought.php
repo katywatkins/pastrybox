@@ -1,24 +1,23 @@
-
 <?php 
 if ( have_posts() )
 the_post();
 $category = get_the_category( get_the_ID() );
 $theBaker = $bakers->get_by_slug( $category[0]->slug );
 ?>
-<div class="thought thought-format-a container step" role="article">
+<div class="thought thought-format-a container step h-entry hentry" role="article">
     <h2 class="thought-title">
-        <a href="<?php the_permalink(); ?>"><?php pastry_the_thought_title_to_date( get_the_title(), true ); ?></a>
+        <a class="u-url url" href="<?php the_permalink(); ?>"><?php pastry_the_thought_title_to_date( get_the_title(), true ); ?></a>
     </h2>
     <h3 class="baked-by">
         <span>baked by</span>
-        <span><a href="<?php echo $theBaker->profile_url; ?>"><?php echo $theBaker->name; ?></a></span>
+        <span><a class="h-card p-author author" href="<?php echo $theBaker->profile_url; ?>"><?php echo $theBaker->name; ?></a></span>
     </h3>
     
     <p class="baker-portrait">
         <img src="<?php echo $theBaker->portrait_small_url; ?>" alt="<?php echo $theBaker->portrait_alt; ?>" title="<?php echo $theBaker->portrait_alt; ?>" class="portrait-small">	
     </p>
 
-    <blockquote class="thought-content a-area-a">
+    <blockquote class="thought-content a-area-a e-content entry-content">
         <?php echo pastry_clean_code( get_the_content() ); ?>
     </blockquote>
       
