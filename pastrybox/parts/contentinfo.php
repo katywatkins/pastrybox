@@ -35,7 +35,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Arrow: Down">↓</kbd>
+                            <kbd title="Alt">Alt</kbd><kbd title="Arrow: Down">↓</kbd>
                         </td>
                         <td>
                             Move Down
@@ -43,7 +43,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Arrow: Up">↑</kbd>
+                            <kbd title="Alt">Alt</kbd><kbd title="Arrow: Up">↑</kbd>
                         </td>
                         <td>
                             Move Up
@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Ctrl">⌃</kbd><kbd title="Arrow: Up">↑</kbd>
+                            <kbd title="Alt">Alt</kbd><kbd title="Ctrl">Ctrl</kbd><kbd title="Arrow: Up">↑</kbd>
                         </td>
                         <td>
                             Direct To Top
@@ -59,7 +59,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <kbd title="Alt">⌥</kbd><kbd title="Ctrl">⌃</kbd><kbd title="Arrow: Down">↓</kbd>
+                            <kbd title="Alt">Alt</kbd><kbd title="Ctrl">Ctrl</kbd><kbd title="Arrow: Down">↓</kbd>
                         </td>
                         <td>
                             Direct To Bottom
