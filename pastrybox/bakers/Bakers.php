@@ -38,7 +38,9 @@ class Bakers
     
     public function get_years()
     {
-        return array_keys( $this->years );
+        $years = array_keys( $this->years );
+        $years = array_reverse( $years );
+        return $years;
     }
     
     public function get_by_year( $year )

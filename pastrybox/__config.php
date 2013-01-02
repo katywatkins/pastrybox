@@ -23,7 +23,7 @@ ob_start('frontin_minify');
 
 
 $config = (object) array(
-	"years"        => array( '2012' ),
+	"years"        => array( '2013','2012' ),
 	"portrait_of"  => 'Portrait Of ',
 	"url"     	   => get_bloginfo( 'url' ) . "/",
 	"template_url" => get_bloginfo( 'template_url' ) . "/",	
