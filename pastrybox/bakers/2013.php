@@ -93,6 +93,17 @@ $bakers = array(
   ),
   
   array(
+    "name"         => "Cole Henley",
+    "slug"         => 'cole-henley',
+    "profile_url"  => $config->url . "baker/cole-henley/",
+    "portrait_url" => $config->data_url . $year . "/portraits/cole-henley.png",
+    "portrait_small_url" => $config->data_url . $year . "/portraits/cole-henley-small.png",
+    "portrait_alt" => $config->portrait_of . "Cole Henley",
+    "path_to_bio"  => 'bakers/data/' . $year . "/bio/cole-henley.php",
+    "twitter"      => "cole007",
+  ),
+  
+  array(
     "name"         => "Dan Denney",
     "slug"         => 'dan-denney',
     "profile_url"  => $config->url . "baker/dan-denney/",
