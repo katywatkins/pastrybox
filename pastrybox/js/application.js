@@ -5,16 +5,22 @@
 
     // *** Scrolling ***
     // Smooth scrolling
-    function scrollSmoothly(toHash) {
+    function scrollSmoothly(toHash,theOffset) {
         $('html,body').animate({
-            scrollTop: toHash.offset().top
+            scrollTop: toHash.offset().top + theOffset
         }, 300);
     }
 
     // Links with class="jump"
     $(".jump").click(function (event) {
         event.preventDefault();
-        scrollSmoothly($(this.hash));
+        scrollSmoothly($(this.hash),0);
+    });
+    
+    // Links with class="footote-jump"
+    $(".footnote-jump").click(function (event) {
+        event.preventDefault();
+        scrollSmoothly($(this.hash),-60);
     });
     
     // *** strokes (keyboard nav) ***
@@ -72,4 +78,7 @@
     
     // *** prettyPrint ***
     //window.prettyPrint && prettyPrint();
+    
+ 	$(".container").fitVids();
+
 }(window.jQuery)
