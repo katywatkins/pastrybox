@@ -8,12 +8,11 @@
             <span>One Thought Every Day. </span> 
             <span>All Year Round. </span> 
             <span>Sugar For The Mind. </span>
-        </div><!-- /.tagline -->
+        </div>
         <?php endif; ?>
         
         <div class="brand a-area-c">
             <a href="<?php bloginfo( 'url' ) ?>/" title="Home">The Pastry Box Project</a>
-        </div><!-- /.container -->  
-    
-    </div><!-- /.container -->      
-</div><!-- /.banner -->
+        </div> 
+    </div>      
+</div>

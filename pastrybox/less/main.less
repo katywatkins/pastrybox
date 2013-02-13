@@ -5,7 +5,70 @@
 //     -fix some poor naming choices
 //     -rely more on less capabilities
 
+/*
+==========================================================================
+Countdown
+==========================================================================
+*/
 
+.campaign {
+	border-top: 1px dotted #444;
+	//font-size: .6em;
+	margin-top: 1em;
+	padding-top: 1em;
+	
+	.h-beta {
+		font-size: 1.1em;
+		margin: 0;
+		}
+	
+	}
+
+.campaign-summary {
+	text-align: center;
+	font-size: 1.1em;
+	}
+	
+.campaign-countdown {
+	text-align: center;
+	font-size: 1.1em;
+	font-style: italic;
+	}
+
+.clock {
+	margin-top: 1em;
+	text-align: center;
+	}
+
+.time {
+	position: relative;
+	display: inline-block;
+	background: #444;
+	color: white;
+	padding: .8em;
+	margin: 0 .2em;
+	font-size: 1.3em;
+	border-radius: 5px;
+	text-align: center;
+	min-width: .8em;
+	min-height: .8em;
+	}
+
+
+.time-count {
+
+	}
+
+.time-unit {
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 5em;
+	left: 0;
+	text-transform: uppercase;
+	font-size: .5em;
+	}
+	
 /*
 ==========================================================================
 @mixins
@@ -139,6 +202,12 @@ a {
     }
 }
 
+sup {
+	a {
+		font-style: normal !important;
+	}
+}
+
 /*
 ==========================================================================
 Selection
@@ -225,6 +294,7 @@ abbr, acronym {
     cursor: help;
 }
 
+
 // *************** HELPERS *************** //
 
 .portrait, .portrait-small {
@@ -244,6 +314,29 @@ abbr, acronym {
 .no-margin {
     margin: 0 !important;
 }
+
+.footnote {
+	font-size: .8em;
+	position: relative;
+	color: #777;
+	padding-top: .4em;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 1px;
+		background: #777;
+		width: 20%;
+		}
+	}
+
+.subtitle {
+	display: inline-block;
+	font-size: .8em;
+	text-transform: uppercase;
+	}
 
 /*
 ==========================================================================
@@ -324,6 +417,9 @@ Hash navigation
     }
 }
 
+.footnote-jump {
+	font-style: normal !important;
+	}
 
 /*
 ==========================================================================

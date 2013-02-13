@@ -34,8 +34,5 @@
 
 <!-- libraries at work -->
 <script src="<?php bloginfo( 'template_url' ); ?>/js/application.js"></script>
-<script>
- $(".container").fitVids();
-</script>
 
 <?php wp_footer(); ?>

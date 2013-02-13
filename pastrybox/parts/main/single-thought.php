@@ -43,10 +43,4 @@ $theBaker = $bakers->get_by_slug( $category[0]->slug );
 
 </div><!-- /.thought -->
 
-<<<<<<< HEAD
 <?php rewind_posts(); ?>
-=======
-
-
-<?php rewind_posts(); ?>
->>>>>>> 200c80f76ab6c34dfd6e9bbaf0f28a091ec2abc2
