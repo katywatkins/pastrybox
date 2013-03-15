@@ -16,7 +16,7 @@
             <h2 class="h-gamma">Swim In The Stream</h2>
             <p>A <a href="<?php bloginfo( 'url' ); ?>/stream" title="The Stream">stream</a> of all the thoughts published on the Pastry Box Project is available. Keep it open somewhere, and lose yourself in it whenever you feel like it.</p>
         </div>
-
+<?php /*
         <div class="additional step">
             <h2 class="h-gamma">Keyboard Shortcuts</h2>
             <p>The Pastry Box is a breeze to use with the keyboard.</p>
@@ -69,7 +69,7 @@
             </table>
             
         </div>
-        	
+*/ ?>
         <div class="additional step">
             <h2 class="h-gamma">Meet Your Hosts</h2>
             <p>There are not only pieces of software talking to each other behind this website. There are humans too. The Pastry Box is brought to you by <a class="h-card" href="http://bitspushedaround.com/" title="Alex Duloz - Website">Alex Duloz</a> and it is edited by <a class="h-card" href="http://katywatkins.com/" title="Katy Watkins - Website">Katy Watkins</a>. </p>

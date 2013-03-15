@@ -1114,9 +1114,15 @@ Utility
 
 
 .center {
+	display: block;
     text-align: center;
 }
 
+.framed {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 /*
 ==========================================================================
@@ -1206,8 +1212,8 @@ img#wpstats{position:absolute;top:0;width:0px;height:0px;overflow:hidden}
     }
 
     .container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     blockquote, .additional p {
@@ -1227,31 +1233,52 @@ img#wpstats{position:absolute;top:0;width:0px;height:0px;overflow:hidden}
     .banner span {
         display: block;
     }
+    
+    .thought-format-a {
+        .thought-content {
+            font-size: 20px;
+        }	
+    }
 }
 
 @media (max-width: 490px) {
    
    	body, html {
-	    max-width: 460px;
+	    max-width: 480px;
 	    width: 100%;
+	    font-size: 18px;
+    }
+    
+    .tagline {
+    	display: none;
+    	}
+    	
+    .the-baker {
+        width: 100%;
+        float: none;
     }
     
     .brand {
-        font-size: .9em;
+        //font-size: .7em;
     }
     
     .thought-format-a {
         .thought-content {
-            font-size: .8em;
+            font-size: 16px;
         }	
     }
     
     .coming-next-date {
-        font-size: .6em;
+        //font-size: .6em;
         line-height: 1.2;	
     }
     
     .baked-by {
-        font-size: .75em;	
-    }	 
+        font-size: .7em;	
+    }	
+    
+    .span4 {
+    	//width: 100% !important;
+    	//float: none;
+    	} 
 }
