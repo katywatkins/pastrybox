@@ -320,7 +320,7 @@ $bakers = array(
     "portrait_small_url" => $config->data_url . $year . "/portraits/sara-wachter-boettcher-small.png",
     "portrait_alt" => $config->portrait_of . "Rob Weychert",
     "path_to_bio"  => 'bakers/data/' . $year . "/bio/sara-wachter-boettcher.php",
-    "twitter"      => "sara-ann-marie",
+    "twitter"      => "sara_ann_marie",
   ),
   
   array(
