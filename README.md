@@ -44,9 +44,10 @@ The "bakers" folder should have the following structure:
 
 
 	bakers
-		[year] (e.g. "2012")
-			bio
-			portraits
+		data
+			[year] (e.g. "2012")
+				bio
+				portraits
 
 
 The "bio" folder contains the texts displayed in "baker.php" (HTML format).
@@ -56,17 +57,18 @@ Here's an example:
 
 
 	bakers
-		2012
-			bio
-				lea-verou.php
-				ethan-marcotte.php
-				...
-			portraits
-				lea-verou.png
-				lea-verou-small.png
-				ethan-marcotte.png
-				ethan-marcotte-small.png
-				...
+		data
+			2012
+				bio
+					lea-verou.php
+					ethan-marcotte.php
+					...
+				portraits
+					lea-verou.png
+					lea-verou-small.png
+					ethan-marcotte.png
+					ethan-marcotte-small.png
+					...
 
 
 Please make sure you read the [limitations](https://github.com/alexduloz/pastrybox/blob/gh-pages/LIMITATIONS.md) before using the material related to contributors.
