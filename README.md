@@ -1,7 +1,7 @@
 # Improving The Pastry Box
 
 
-The Pastry Box Project runs on Wordpress and uses [CurtainsUp](https://github.com/alexduloz/CurtainsUp) as a blueprint for its template.
+The Pastry Box Project runs on WordPress and uses [CurtainsUp](https://github.com/alexduloz/CurtainsUp) as a blueprint for its template.
 
 You can pull requests for new features, design improvements, and whatever crosses your mind. 
 
@@ -14,7 +14,7 @@ There are some [limitations](https://github.com/alexduloz/pastrybox/blob/gh-page
 It is quite easy to get ready to improve the Pastry Box Project, but it may take some patience to get started:
 
 
-* Download and Install Wordpress. As usual.
+* Download and Install WordPress. As usual.
 * In your adminCP, go to "Permalinks". Check "Custom Structure": `/%category%/%postname%/`
 * In your adminCP, go to "Permalinks". Rename Category base to "baker"
 * In your adminCP, Add __8__ new pages. They must all be __empty__ (nothing to add, just publish them with empty content). Here are the titles those 8 pages: Most Recent, About, Archives, Bakers, Disclaimer, Privacy Policy, Stream, Terms Of Services. 
@@ -106,7 +106,7 @@ There are two types of pull requests:
 
 __If your request falls in the first category__, just pull your request as usual. 
 
-__If your request falls in the second category__, make sure you post a link to a *working page* which showcases your modifications. The best way to do this is to install Wordpress on a server and use the Pastry Box template with your modifications.
+__If your request falls in the second category__, make sure you post a link to a *working page* which showcases your modifications. The best way to do this is to install WordPress on a server and use the Pastry Box template with your modifications.
 
 Please do not use texts published on the-pastry-box-project.net when showcasing your modifications (as it's copyrighted material).
 
